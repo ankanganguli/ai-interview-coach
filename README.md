@@ -6,6 +6,9 @@ The system is built on an agentic workflow where three distinct personas collabo
  1. **The Evaluator (Logic Agent)**: Works silently in the background to analyze the user's response for technical depth, clarity, and "messiness" like vague answers or "I don't know".
  2. **The Interviewer (Adaptive Agent)**: Manages the conversation. It consumes the Evaluator's findings to decide whether to probe deeper into a weak answer or move on to a new topic.
  3. **The Coach (Feedback Agent)**: Activates after the final turn to analyze the full transcript and generate a structured performance report covering strengths, gaps, and specific things to practice.
+    🌐 Live Demo
+You can test the application immediately at the following link:
+Launch AI Mock Interview Coach
 ## 🚀 How to Run the App
 This prototype has been designed for immediate testing. I have pre-configured the environment so you can experience the workflow without manual setup.
 ### Quick Start
