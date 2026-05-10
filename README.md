@@ -4,7 +4,6 @@ This is a multi-agent system designed to conduct realistic, adaptive mock interv
 ## 🌐 Live Demo
 You can test the application immediately at the following link:
 Https://ai-interview-coach-usnpyzrzhzeq7dyif8jchv.streamlit.app/
-*(Note: The environment is pre-configured with a Gemini API key for seamless testing; no manual setup or keys are required from your side.)*
 ## 🏗 Architecture Overview
 The system is built on an agentic workflow where three distinct personas collaborate to manage the session:
  1. **The Evaluator (Logic Agent)**: Works silently in the background to analyze the user's response for technical depth, clarity, and "messiness" like vague answers or "I don't know".
