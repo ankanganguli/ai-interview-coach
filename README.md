@@ -1,4 +1,4 @@
-I have removed the double colons and polished the **Example Interview Transcripts** section to ensure it reads smoothly and professionally for your recruiter.
+
 # AI Mock Interview Coach (POC)
 This is a multi-agent system designed to conduct realistic, adaptive mock interviews for professional roles. Unlike static chatbots, this system uses a **Sequential Agent Orchestration** pattern to probe candidate depth and provide a high-level feedback report at the end of the session.
 ## 🏗 Architecture Overview
