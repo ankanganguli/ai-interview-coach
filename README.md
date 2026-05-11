@@ -19,7 +19,7 @@ If you prefer to run the prototype in a local environment:
    ```
 ## 🧠 Key Design Decisions
  * **Sequential Orchestration**: I implemented a sequential flow (Evaluator → Interviewer) to ensure every question is grounded in an objective analysis of the candidate's last answer, fulfilling the "Intelligent Follow-up" requirement.
- * **Model Selection**: I utilized **Gemini 3 flash - lite** for this POC to balance high-level intelligence with the low latency required for a real-time conversational interface.
+ * **Model Selection**: I utilized **Gemini 3.1 flash - lite** for this POC to balance high-level intelligence with the low latency required for a real-time conversational interface.
  * **Modular Prompting**: All agent personas are isolated in the prompts/ directory. This allows for easy updates to the interview logic without modifying the core Python code.
 ## 📝 Example Interview Transcripts
 Here are three scenarios demonstrating how the system adapts to different candidate inputs:
